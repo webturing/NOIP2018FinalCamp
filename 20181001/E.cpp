@@ -27,7 +27,7 @@ int main() {
         if (v[j].height > v[i].height) break;
         left += v[j].width;
       }
-      if (left >= y || right >= y) {
+      if (left+right-v[i].width >= y) {
         best = min(best, v[i].height);
       }
     }
