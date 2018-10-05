@@ -18,6 +18,8 @@ int main(){
         }
     }
     for(int i = 1; i <= m; i++){
+
+
         int x,y,z;
         cin >> x >> y >> z;
         a[x][y]  = z;
